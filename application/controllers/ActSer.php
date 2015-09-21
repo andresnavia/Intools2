@@ -5,7 +5,7 @@ class ActSer extends CI_Controller {
 
 	public function index()
 	{		
-			
+			$this->load->model('ModeloBitacora');
 			$datos['activity']= $this->ModeloBitacora->Actividad();
 			$datos['service']= $this->ModeloBitacora->Servicio();
 			$datos['element']= $this->ModeloBitacora->Elemento();
