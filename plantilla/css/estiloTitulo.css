@@ -1,0 +1,33 @@
+#ini
+    {
+        position:relative;
+        display: block;
+        font-size: 50px;
+        height: 50px;
+        width: 250px;
+        text-decoration:none;
+        color:#fff;
+        overflow:hidden;
+    }
+
+
+#ini span
+    {
+        position:relative;
+        display: block;
+        background:url("plantilla/img/brillo.png") no-repeat;
+        background-position: -100px 0px;
+        margin-top:-50px;
+        height: 70px;
+        width: 200px;
+    }
+
+
+#ini:hover span
+    {
+        background-position: 300px 0px;
+        -webkit-transition-property: all;
+        -webkit-transition-duration: 1s;
+        transition-property: all;
+        transition-duration: 1s;
+    }
