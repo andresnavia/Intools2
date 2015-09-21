@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class ActSer extends CI_Controller {
-//hola
+
 	public function index()
 	{		
 			$this->load->model('ModeloBitacora');
